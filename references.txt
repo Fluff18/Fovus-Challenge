@@ -1,0 +1,4 @@
+UI 
+Tailwind - https://tailwindcss.com/
+
+Deploying Frontend on Amplify - https://docs.aws.amazon.com/amplify/latest/userguide/deploy-backend.html#step-1-deploy-frontend
