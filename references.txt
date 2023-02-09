@@ -1,4 +1,4 @@
-UI 
-Tailwind - https://tailwindcss.com/
+Here are the llist of references used to complete this challenge - 
 
-Deploying Frontend on Amplify - https://docs.aws.amazon.com/amplify/latest/userguide/deploy-backend.html#step-1-deploy-frontend
+Tailwind - https://tailwindcss.com/
+Deploying Frontend on S3 with CloudFront - https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/
