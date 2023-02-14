@@ -2,3 +2,5 @@ Here are the llist of references used to complete this challenge -
 
 Tailwind - https://tailwindcss.com/
 Deploying Frontend on S3 with CloudFront - https://aws.amazon.com/blogs/mobile/deploying-a-static-website-with-aws-amplify-and-cdk/
+
+CDK Setup

@@ -20,4 +20,4 @@ The script is stored in a bucket called fovus-script
 The script takes the file row of data related to the uploaded file from a DynamoDB table called "InputFileTable".
 Then the file uploaded is fetched from "fovus-input-bucket" and modified.
 This modified file is uploaded to another bucket called "fovus-output-bucket" and the stored location along with the id is stored in a DynamoDB table called "OutputFileTable".
-After which the EC2 instance is automatically terminated.
+After which the EC2 instance is automatically terminated by fetching the instance id
