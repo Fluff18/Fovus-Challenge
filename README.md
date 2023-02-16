@@ -11,7 +11,7 @@ cd amplify-infra
 cdk init --language typescript
 npm install @aws-cdk/aws-github @aws-cdk/aws-amplify
 
-# Static Website - Sorry for the low quality image used. That was all I could find with the company logo
+# Static Website
 
 #TODO: check hosting for security and also cloucfront? Also
 
