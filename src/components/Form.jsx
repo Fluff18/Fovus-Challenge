@@ -1,7 +1,8 @@
 import React from "react";
 import fovusLogo from '../assets/FovusLogo.jpg';
 import { useForm } from "react-hook-form";
-
+import { Upload } from "aws-sdk/lib-storage";
+import { S3Client, S3 } from "@aws-sdk/client-s3";
 
 export default function Form() {
 
@@ -22,7 +23,7 @@ export default function Form() {
 
                     <div className='flex flex-col text-gray-700 py-2'>
                         <label>File Input</label>
-                        <input type='file' name='input_file'/>
+                        <input type='file' name='input_file' id='input_file'/>
                     </div>
 
                     <div className='flex justify-between text-gray-900 py-2'>

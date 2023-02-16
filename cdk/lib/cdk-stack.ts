@@ -1,7 +1,5 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
-import * as s3 from '@aws-cdk/aws-s3';
-import * as s3Deployment from '@aws-cdk/aws-s3-deployment';
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
 
 export class CdkStack extends cdk.Stack {
@@ -11,6 +9,7 @@ export class CdkStack extends cdk.Stack {
     // S3
     const bucket = new cdk.aws_s3.Bucket(this, "FovusBucket", {
       publicReadAccess: true,
+      bucketName: "fovusfrontend",
       websiteIndexDocument: "index.html"
     });
 
