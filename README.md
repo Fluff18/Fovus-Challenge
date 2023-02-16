@@ -1,4 +1,4 @@
-# Ful stacck implemenation using React, TailWind CSS, AWS CDK - S3, DDB, EC2 and more
+# Ful stack implemenation using React, TailWind CSS, AWS CDK - S3, DDB, EC2 and more
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and TailWindCSS.
 
