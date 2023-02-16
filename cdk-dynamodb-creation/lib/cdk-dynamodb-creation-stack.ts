@@ -8,12 +8,12 @@ export class CdkDynamodbCreationStack extends cdk.Stack {
 
     const inputTable = new cdk.aws_dynamodb.Table(this, 'InputTable', { 
       partitionKey: { name: 'id', type: cdk.aws_dynamodb.AttributeType.NUMBER }, 
-      tableName: 'input-Table' 
+      tableName: 'inputFileTable' 
     });
 
     const outputTable = new cdk.aws_dynamodb.Table(this, 'OutputTable', { 
       partitionKey: { name: 'id', type: cdk.aws_dynamodb.AttributeType.NUMBER }, 
-      tableName: 'output-Table' 
+      tableName: 'outputFileTable' 
     });
   }
 }
